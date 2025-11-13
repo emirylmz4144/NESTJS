@@ -1,0 +1,13 @@
+```sql
+
+CREATE TABLE tasks (
+    id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    title VARCHAR(255) NOT NULL,
+    description VARCHAR(1000),
+    status BOOLEAN DEFAULT FALSE,
+    createdAt DATETIME DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (id)
+);
+
+
+```

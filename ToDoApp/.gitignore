@@ -1,0 +1,7 @@
+.prettierrc
+eslint.config.mjs
+nest-cli.json
+package-lock.json
+node_modules/
+dist/
+tsconfig.build.json
