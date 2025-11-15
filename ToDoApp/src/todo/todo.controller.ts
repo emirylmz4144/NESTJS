@@ -32,6 +32,4 @@ export class TodoController {
   deleteTask(@Param('id') id:number){
     return this.todoService.delete(id)
   }
-
-
 }
